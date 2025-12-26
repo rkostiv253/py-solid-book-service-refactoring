@@ -35,7 +35,7 @@ def main(book: Book, commands: list[tuple[str, str]]) -> None | str:
             serializer = serializer_cls()
             result = serializer.serialize(book)
 
-        return result
+    return result
 
 
 if __name__ == "__main__":
